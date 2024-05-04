@@ -34,7 +34,7 @@ function meuEscopo() {
         function calculaIMC(p, a) {
             let imc = p / ((a / 100) ** 2);
             resultado.innerHTML = `${nome.value} ${sobrenome.value}  seu IMC é ${imc.toFixed(1)}! <br />`
-            if (peso.value >= 200){
+            if (peso.value >= 300){
           resultado.classList.add('preto')
           resultado.innerHTML += ' <p> Vai morrer </p>'} else if (imc < 18.5) {
                 resultado.classList.add('cinza');
