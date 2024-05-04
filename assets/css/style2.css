@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #424e61;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagem-tabela{
+    width: 60%;
+}
+.tabela-imc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.calcula-imc{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    max-height: 500px;
+
+}
+.paragrafo-nome,.paragrafo-sobrenome,.paragrafo-peso,.paragrafo-altura{
+    font-size: 25px;
+}
+.nome,.sobrenome,.peso,.altura,.resultado{
+    font-size: 18px;
+}
+.nome,.sobrenome,.peso,.altura{
+background-color: #d2d7df;
+border-radius: 15px;
+}
+.resultado{
+    max-height: 350px;
+    height: 100%;
+    overflow: auto;
+}
+
+.forms{
+    width: 100%;
+    max-width: 300px;
+}
+
+.botao{
+   width: 100%;
+   max-width: 300px;
+   font-family: 'Poppins';
+   color: white;
+   background-color: black;
+   border-radius: 15px;
+   border: 1px solid;
+}
+input{
+    max-width: 250px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+table{
+    width: 80%;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: rgb(125, 150, 141);
+    text-align: center;
+}
